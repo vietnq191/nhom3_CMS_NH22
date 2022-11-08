@@ -612,3 +612,15 @@ Jewelry is distributed under the terms of the GNU GPL.
 						.grecaptcha-badge {
 							visibility: hidden;
 						}
+
+.mega-menu-item {
+    float: left;
+    margin: 30px;
+}
+
+.menu-menumain-pnj-container a{
+  color: black;
+}
+.menu-menumain-pnj-container a:hover{
+  color: #c48c46;
+}

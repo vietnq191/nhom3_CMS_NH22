@@ -111,7 +111,7 @@
                                         <div class="top-menu main-menu-v1">
                                             <div class="collapse navbar-collapse" id="bootstrap-nav-collapse">
                                                 <?php
-												mytheme_menu('primary-menu');
+												mytheme_mega_menu('primary-menu');
 												?>
                                             </div>
                                         </div>
