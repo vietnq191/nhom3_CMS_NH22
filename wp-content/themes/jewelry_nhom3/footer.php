@@ -1,3 +1,46 @@
+<div class="tygh-footer clearfix" id="tygh_footer">
+    <div class="container-fluid ty-footer-grid">
+        <div class="row-fluid ">
+            <div class="span16 ty-footer-grid__full-width home-info-pnj">
+                <div class="row-fluid ">
+                    <div class="span16 ">
+                        <div class="ty-wysiwyg-content">
+                            <div class="span16 img-logo-footer"> 
+                                <?php dynamic_sidebar( 'logo_footer' );?>                                          
+                            </div>
+                            <div class="ty-wysiwyg-content">
+                                <div class="info-item span5 footer-store-grid information-pnj">
+                                    <?php dynamic_sidebar( 'footer-widget-col-one' );?>
+                                </div>
+                                <div class="info-item span3 footer-store-grid footer-about-pnj">
+                                    <?php dynamic_sidebar( 'footer-widget-col-two' );?>
+                                </div>
+                                <div class="info-item span4 footer-store-grid footer-servies">
+                                    <?php dynamic_sidebar( 'footer-widget-col-three' );?>
+                                </div>
+                                    <div class="span4 footer-store-grid connection-pnj">
+                                        <?php dynamic_sidebar( 'footer-widget-col-four' );?>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                    <div class="row-fluid ">
+                        <div class="span16 ">
+                            <div class="ty-wysiwyg-content">
+                                <style>
+                                   
+                                </style>
+                            </div>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+            
+        </div>
+        <!--tygh_container-->
+    </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" data-no-defer></script>
 <script data-no-defer>
 if (!window.jQuery) {
@@ -301,15 +344,15 @@ AT.track();
     ttq.page();
 }(window, document, 'ttq');
 </script>
-<script type="application/ld+json">
+// <script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "name": "Trang Sức Cao Cấp PNJ | Cty Cổ Phần Vàng Bạc Đá Quý Phú Nhuận",
-    "alternateName": "PNJ tự hào là công ty chế tác và bán lẻ trang sức hàng đầu tại châu Á ❤️Khách hàng là trọng tâm ✔️Mua Online nhanh chóng, đơn giản ☎️1800545457 (Miễn Phí)",
-    "url": "https://www.pnj.com.vn/"
+    "name": "Trang Sức Cao Cấp Nọc Jewelry",
+    "alternateName": "Jewelry tự hào là công ty chế tác và bán lẻ trang sức hàng đầu tại châu Á ❤️Khách hàng là trọng tâm ✔️Mua Online nhanh chóng, đơn giản ☎️1800545457 (Miễn Phí)",
+    "url": "https://jewelry-cms.com/"
 }
-</script>
+// </script>
 <script src="//rum-static.pingdom.net/pa-62ce88b10d7ce50011000faf.js" async></script>
 <script async="null" src="https://www.googletagmanager.com/gtag/js?id=AW-747797356"></script>
 <script>
@@ -391,6 +434,15 @@ grecaptcha.ready(function() {
 <script>
 const SECURITY_HASH = '66effec656c473fd706d36112c66a589';
 </script>
+<script src="https://kit.fontawesome.com/f6dce9b617.js" crossorigin="anonymous"></script> 
+<!--Single -->
+
+
+
+<!--Single -->
+
+
+ <?php wp_footer(); ?>
 </body>
 
 

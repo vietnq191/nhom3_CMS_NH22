@@ -2,7 +2,7 @@
 
 /*
 Theme Name: Jewelry Nhóm 3
-Theme URI: https://wordpress.org/themes/twentytwentyone/
+Theme URI: https://wordpress.org/themes/jewelry_nhom3/
 Author: Nhóm 3 - CMS NH2022-2023
 Author URI: 
 Description: Jewelry is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
@@ -612,6 +612,46 @@ Jewelry is distributed under the terms of the GNU GPL.
 						.grecaptcha-badge {
 							visibility: hidden;
 						}
+						
+						
+.general.desktop .top-header::after {
+    width: 100%;
+}
+        	/**Mega Menu **/
+.navbar .container {
+    position: relative;
+}
+.navbar-nav, .navbar .collapse, .navbar-nav li {
+  position: static;
+}
+.menu-item-has-children, .menu-item-has-children .dropdown-menu {
+  left: auto;
+}
+.menu-item-has-children .dropdown-menu {
+  width: auto !important;
+}
+@media (min-width: 767px) {
+/** 
+make dropdown active on hover and fade in - 
+change to 992px for alt breakpoint and swap bootstrap.css files 
+**/
+
+  ul.nav li.dropdown > ul.dropdown-menu{
+    visibility:hidden;
+    display:block;
+    opacity:0;
+    margin-top: 10px !important;
+    transition: all  0.5s ease-in-out;
+  }
+  ul.nav li.dropdown:hover > ul.dropdown-menu{
+    visibility:visible;
+    opacity: 1;
+    display: block;
+    margin-top: 0 !important; 
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+  } 
+}
 
 .mega-menu-item {
     float: left;
@@ -621,6 +661,36 @@ Jewelry is distributed under the terms of the GNU GPL.
 .menu-menumain-pnj-container a{
   color: black;
 }
-.menu-menumain-pnj-container a:hover{
-  color: #c48c46;
+.menu-menu-main-container a:hover {
+    color: #c48c46;
 }
+ul.nav li.dropdown > ul.dropdown-menu{
+        margin-left: 160px;
+}
+
+.result-search{
+    position: absolute ; 
+    top: 40px;
+    background: #ededed;
+    border-radius: 15px;
+}
+
+.wpcf7 input[type="text"]{
+    width: 400px;
+}
+.wpcf7 input[type="tel"]{
+    width: 400px;
+}
+.wpcf7 {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .wpcf7 input[type="submit"] {
+     color: #ffffff;
+     background: #24507d;
+     padding: 10px 15px 10px 15px;
+     border: none;
+     border-radius: 5px;
+     width: auto;
+ }

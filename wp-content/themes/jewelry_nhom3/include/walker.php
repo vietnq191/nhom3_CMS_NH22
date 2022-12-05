@@ -63,7 +63,7 @@ class BootstrapNavMenuWalker extends Walker_Nav_Menu
         $attributes .= ($args->has_children || $hasMegaMenu) ? ' class="dropdown-toggle" data-toggle="dropdown"' : '';
 
         $item_output = $args->before;
-        $item_output .= '<a' . $attributes . '>';
+        $item_output .= '<a' . $attributes . 'ty-menu__submenu-link' . '>';
         $item_output .= $args->link_before . apply_filters('the_title', $item->title, $item->ID) . $args->link_after;
         $item_output .= (($depth == 0 || 1) && ($args->has_children || $hasMegaMenu)) ? ' <b class="caret"></b></a>' : '</a>';
         $item_output .= $args->after;
